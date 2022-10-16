@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #2D3238;
+}
+
+nav{
+    padding: 6px 80px;
+    background: #212529;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    
+}
+
+.navbar{
+    display: flex;
+
+}
+
+.navbar > div{
+    margin: 0 250px;
+}
+
+.navbar ul{
+    display: flex;
+    margin-right: 20px ;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #86878a;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 300ms ease;
+}
+
+.navbar a:hover{
+    color: #b6b6b6;
+    transition: 300ms ease;
+}
+
+.brand li a{
+    font-size: 18px;
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    margin: -10px;
+}
+
+.brand img{
+    margin-right: 10px;
+}
+
+.main-img{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main-img img{
+    width: 850px;
+}
+
+.main-img a{
+    background: #2D3238;
+    box-shadow: 0 10px 20px 0px #202020;
+}
+
+.content{
+    margin: 100px 250px;
+}
+
+.content button{
+    background: #1b1b1b;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    margin-top: 20px;
+    width: 160px;
+}
+
+.content button:hover{
+    cursor: pointer;
+}
+
+.card{
+    margin-top: 100px;
+    display: grid;
+
+}
+
+.card-top, .card-bot{
+    display: flex;
+    justify-content: center;
+}
+
+.card-bot{
+    margin-top: 80px;
+}
+
+.cd{
+    background: #212529;
+    width: 130px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.cd a{
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cd a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.cd a p span{
+    color: yellow;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+footer{
+    padding: 150px 150px 0 150px;
+    margin-top: 50px;
+    box-shadow: 0 -10px 10px #303030;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer .left{
+    width: 30%;
+}
+
+.footer .left h3{
+    display: flex;
+    align-items: center;
+}
+
+.left p{
+    margin-top: -10px;
+}
+
+.footer h3{
+    margin: 0;
+}
+
+.footer h3, .footer p, .footer li, .footer a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer ul{
+    padding: 0;
+    margin: 0;
+}
+
+.footer > div{
+    margin: 0 20px;
+}
+
+.footer .left img{
+    margin-right: 10px;
+}
+
+.payment img{
+    height: 13px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.line{
+    width: 60px;
+    height: 5px;
+    border-radius: 5px;
+    background: yellow;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.cvline{
+    position: relative;
+    left: 45px;
+    bottom: 10px;
+}
+
+.copyright{
+    background: #252525;
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+.copyright p, .copyright a{
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+
+.copyright p{
+    padding: 10px;
+}
+
+/* Style untuk profile */
+
+.profile{
+    display: flex;
+    justify-content: center;
+}
+
+.pcard{
+    width: 350px;
+    background: yellow;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.pcard div{
+    display: flex;
+    justify-content: center;
+}
+
+.pcard img{
+    border-radius: 50%;
+}
+
+.pcard a{
+    font-size: 28px;
+    color: #000;
+    margin: 0 10px;
+}
+
+.pcard .bxl-instagram:hover{
+    background: linear-gradient(45deg, red, orange, purple);
+    border-radius: 5px;
+    transition: 300ms ease;
+    color: white;
+}
+
+.pcard .bxl-facebook:hover{
+    background: #0077ff;
+    border-radius: 5px;
+    transition: 300ms ease;
+    color: white;
+}
+
+.pcard .bxl-whatsapp:hover{
+    background: #00b31e;
+    border-radius: 5px;
+    transition: 300ms ease;
+    color: white;
+}
+
+
+/* style untuk contact us */
+
+#cont h1{
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+}
+.contact{
+    margin: 0 200px 200px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact form{
+    background: #212529;
+    color: #fff;
+    display: block;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.contact form input:not(.contact .except input), .contact form textarea, .contact form select{
+    width: 300px;
+    height: 30px;
+    border: green;
+    border-radius: 5px;
+}
+
+.contact form input:focus:not(.contact .except input:focus), .contact form select:focus, .contact form textarea:focus{
+    outline: 2px solid yellow;
+}
+
+.contact form > div{
+    margin: 10px 20px;
+}
+
+
+/* style untuk gallery */
+
+.gallery{
+    margin: 150px;
+    background: #212529;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.gallery h1{
+    color: #fff;
+    text-align: center;
+}
+
+.gallery img{
+    width: 300px;
+    margin: 20px;
+    border-radius: 40px;
+    transition: 300ms ease;
+}
+
+.gallery img:hover{
+    scale: 1.1;
+    transition: 300ms ease;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px yellow;
+}
+
+.galtop, .galbot{
+    display: flex;
+    justify-content: center;
+}
